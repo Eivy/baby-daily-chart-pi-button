@@ -1,0 +1,12 @@
+[Unit]
+Description=GpioWatcher for Baby Daily Chart
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/baby-daily-chart-pi-button
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
