@@ -11,10 +11,10 @@ After all, just start service `babydailychartbutton`.
 
 ### Pin Layout
 
-GPIO Pin | BabyDailyChart button number
----------|------------------------------
-    4    |   1
-	17   |   2
-	24   |   3
+| GPIO Pin | BabyDailyChart button number |
+|---|---|
+| 4 | 1 |
+| 17 | 2 |
+| 24 | 3 |
 
 And `14` GPIO is used for showing error status.
