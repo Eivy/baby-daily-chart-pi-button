@@ -18,3 +18,8 @@ After all, just start service `babydailychartbutton`.
 | 24 | 3 |
 
 And `14` GPIO is used for showing error status.
+
+
+### Sample Circuit
+
+![Sample](./circuit.png)
